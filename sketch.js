@@ -12,7 +12,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(1080, 1920);
  // colorMode(HSB, 360, 100, 100, 255); // Set color mode to HSB with alpha support
   video = createVideo(['YourGazeCompletesMe_v03.mp4']);
   //video.loop();
