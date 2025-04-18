@@ -27,7 +27,7 @@ function setup() {
 
 function draw() {
 
-  image(cam, 0, 0, width, height);
+  image(video, 0, 0, width, height);
   //image(video, 0,0,1080,1920);
   fill(0,0,0,255-alphaValue)
   rect(0,0,width,height)
